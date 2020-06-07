@@ -28,7 +28,7 @@ jobs:
       uses: Borales/actions-yarn@v2.1.0
       with:
         # Yarn command
-        cmd: yarn install #npm install /yarn install (run these commands whenever you clone this on other pc 
+        cmd: install #npm install /yarn install (run these commands whenever you clone this on other pc 
         #or after turning off your pc
     - name: Creating build
       run: yarn build
