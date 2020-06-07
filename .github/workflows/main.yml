@@ -34,7 +34,7 @@ jobs:
       run: yarn build
       
     - name: installing surge 
-      run: npm install --global surge 
+      run: npm install -g surge 
     
     - name: Deploying on surge app
-      run: surge ./build Alvi-app.surge.sh token ${{secrets.SURGE_TOKEN}}
+      run: surge ./build http://sana-app.surge.sh/ token ${{secrets.SURGE_TOKEN}}
