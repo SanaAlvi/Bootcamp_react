@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Full summary of HTML </title>
+        <link rel="icon" href="sana.jpg"  type=" image/jpg" sizes="16x16">
+        
+        <style>
+            h1{color: rgb(255, 255, 255);
+                background-color:maroon;
+                height: 40px;
+                padding-bottom: 5px;
+           
+            }
+
+            h2{color: rgb(255, 255, 255);
+                background-color: maroon;
+                height: 20px;
+                padding-bottom: 5px;
+                border: 5px rgb(209, 51, 51);
+            }
+            .A{
+                color: rgb(252, 252, 252);
+               
+            }
+        
+
+            .tag{
+                color:teal;
+               
+            }
+           
+            .link
+            {
+                display: inline-block;
+                width: 100px;
+                height: 40px;
+                text-align: center;
+                padding-top: 20px;
+                background-color: rgba(102, 2, 2, 0.952);
+                border: 5px rgb(226, 8, 8);
+            }
+            
+
+        </style>
+    </head>
+     <body style="background-color:rgba(250, 248, 241, 0.877);"> 
+        
+        <div >
+        <ol>
+            <li class="link"><a target="_blank" href="https://www.facebook.com" class="A">Facebook</a></li>
+            <li class="link"><a target="_blank" href ="https://twitter.com" class="A">Twitter</a></li>
+            <li class="link"><a target="_blank" href ="https://www.youtube.com" class="A">Youtube</a></li>
+            <li class="link"><a href="#Insert Delete" class="A">Insert Delete</a> </li>
+            <li class="link"><a href="#Defination" class="A">Defination</a> </li>
+            <li class="link"><a href="#StrikeThrough" class="A">StrikeThrough</a></li>
+        </ol> 
+        </div>
+      
+        
+         <h1 id="Top"> Some Basics </h1>
+
+        <figure align="middle">
+         <img src="summary.JPG" alt="summary" width="500" height="333" title="Summary of Chapter#1"/>
+           <figcaption>Summary Of Chapter#1</figcaption>  
+        </figure>
+      
+         <p>
+             In this language we use tags, tag is noting but simple <b>(< >) </b> having some 
+             specific element like i,q,strong,em etc  
+             
+             
+             
+             
+             <ol>
+                 <li class="tag">b for bold.</li> 
+                 <li class="tag">br to break lines.</li> 
+                 <li class="tag">hr to make horizontal line but its open tag we don't close it.</li> 
+                 <li class="tag">ul for bolits but we have to use li tag as well for each line.</li> 
+                 <li class="tag">sup for supscript.</li> 
+                 <li class="tag">sub for subscript.</li> 
+                 <li class="tag">q for Quotation</li>
+                 <li class="tag">blockquote is used to mention site, in the way like cite="abc.com" </li>
+                 <li class="tag">i for italic etc</li>
+            </ol> 
+
+
+           
+                We applied internal css on list items using class.
+            </p>
+            We have some other types of tags that help for screen reader. 
+            Screen reader is software for blinds. These are:
+            <ul>
+                <li> strong for bold </li>
+                <li> em to emphasize that make it italic </li>
+            </ul> 
+            
+            
+             <hr />
+             Every opening tag has closing 
+             tag also and in between these tags there is a contact known 
+             as Element.
+             We can break the lines even in between paragragh by using br
+             tag. <br> Like this line in same para but you see on new line
+             . </br> 
+             </p>
+
+
+
+             <h2>Examples</h2>
+             <p>Sana Alvi: <q>Hey! I am making Quotation using q tag </q> <br />
+                H<sub>2</sub>SO<sub>4</sub> is the example of subscript. <br />
+                My date of Birth is 4 <sup>th</sup> Oct, 1995. <br />
+            </p>
+            <p>
+                <hr />
+
+                <h2>Abbreviation and Acronyms</h2>
+                <p><abbr title="Doctor">Dr.</abbr> Zahra Mashal is out of her mind write now. </p>
+                <p><abbr title="Engineer">Engr.</abbr> Sana Alvi is just studing HTML</p>
+                <p><acrony title="President Intiative For Artifical Intelligence">PIAIC</acrony></p>
+                
+                <h2>Address</h2>
+                <address>
+                  <p><a href="mailto:sanaalvi066@gmail.com">Click here to email us </a> </p>
+                  <p>Muslim colony opposit HITEC Hostels HIT Taxila Cantt </p>
+                  </address>
+
+                  
+                  <h2> Defination </h2>
+                  <p id="Defination">
+                      <dfn> Defination (dfn) </dfn> is an HTML element used
+                      to indicate the defining instant of new terms. 
+                  </p>
+
+
+
+                  <h2>Insert Delete</h2>
+                  <p id="Insert Delete">we use ins for insert and del for deleting somthing</p>
+                  <p>we now use <ins>HTML5</ins> as we earlier use <del>HTML4</del></p>
+
+
+                  <h2>StrikeThrough</h2>
+                  <p id="StrikeThrough">Like in sales Laptops or anything are available on discounts and 
+                      for this we use s element </p>
+                  <p>Apple iphone 11 Pro: <br /> 
+                    was <s> $1199</s>
+                and Now only $1000</p>
+
+
+                <p>For browser "s" element and "ins" are same </p>
+                <p id="Types of link">
+                <h2>Types of links</h2>
+                There are three types of links url: <br />
+                <dl>
+                    <dt> <b>Anchor url a tag</b></dt>
+                    <dd>Navigative within <em>same page</em> no domain name is link</dd>
+                    <dt><b>Retaive url</b></dt>
+                    <dd>Navigative within <em>same website</em></dd>
+                    <dt><b>Absolute url</b></dt>
+                    <dd>Navigative to <em>another website</em> absolute url
+                    is always with domine name</dd>
+                </dl>  
+                <a target="_blank" href="Book.html" >Go to the book of
+                    <abbr title="Engineer"> Engr. Sana Alvi</abbr> </a>
+                    </p>
+                   
+                    <p>
+                        <Address>Muslim colony 
+                           
+                        </Address>
+                    </p>
+
+                    <p><a href="#Top"> Go to Top</a> </p>
+                </body>
+     </html>
