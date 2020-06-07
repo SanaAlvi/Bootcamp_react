@@ -25,7 +25,7 @@ jobs:
       with:
        node-version: 12
     - name: GitHub Action for Yarn
-      uses: Borales/actions-yarn@v2.0.0
+      uses: Borales/actions-yarn@v2.1.0
       with:
         # Yarn command
         cmd: install #npm install /yarn install (run these commands whenever you clone this on other pc 
