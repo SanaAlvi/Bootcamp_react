@@ -11,7 +11,7 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="late-bell.surge.sh/"
           target="_blank"
           rel="noopener noreferrer"
         >
