@@ -1,15 +1,24 @@
 import React from 'react';
+import logo from './logo.svg';
 import './App.css';
-
 function App() {
   return (
     <div className="App">
-    
-      <h1>Hello World From Alvi</h1>
-       <h2>Finaly after 26 commits</h2> 
-       <h3>This is called hard working</h3>    
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Welcome from Sana Alvi
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
     </div>
   );
 }
-
 export default App;
