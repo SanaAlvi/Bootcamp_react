@@ -24,6 +24,7 @@ jobs:
       uses: actions/setup-node@v2-beta
       with:
         version: 12
+
     - name: GitHub Action for Yarn
       uses: Borales/actions-yarn@v2.1.0
       with:
@@ -37,4 +38,4 @@ jobs:
       run: npm install -g surge 
     
     - name: Deploying on surge app
-      run: surge ./build http://sana-app.surge.sh/ token ${{secrets.SURGE_TOKEN}}
+      run: surge ./build http://sana-app.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
