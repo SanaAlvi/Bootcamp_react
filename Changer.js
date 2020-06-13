@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Change(props){
+function Change(props) {
 return (
     <div>
         <p>Hello {props.Changer} </p>
