@@ -9,7 +9,7 @@ function App() {
         <p>
           Welcome from Sana Alvi
         </p>
-        <Change Changer={p} />
+        <Change Changer= "Alvi's Family" />
       </header>
     </div>
   );
