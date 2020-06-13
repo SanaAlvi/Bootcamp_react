@@ -3,7 +3,7 @@ import React, {useState} from 'react';
 import Change from './Changer.js'
 function App() {
 
-  let [Value,ValueSet]= ValueSet(0)
+  let [Value,ValueSet] = useState(0)
 
   return (
     <div className="App">
