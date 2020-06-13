@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import Change from './Changer'
 function App() {
   return (
     <div className="App">
@@ -9,14 +9,7 @@ function App() {
         <p>
           Welcome from Sana Alvi
         </p>
-        <a
-          className="App-link"
-          href="late-bell.surge.sh/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Change Changer={p} />
       </header>
     </div>
   );
