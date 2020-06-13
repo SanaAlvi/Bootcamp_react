@@ -1,11 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
-import Change from './Changer'
+
+import Change from './Changer.js'
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Welcome from Sana Alvi
         </p>
