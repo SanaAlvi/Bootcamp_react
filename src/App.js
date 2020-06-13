@@ -3,7 +3,7 @@ import React, {useState} from 'react';
 import Change from './Changer.js'
 function App() {
 
-  let [Value,ValueSet]= ValueSet()
+  let [Value,ValueSet]= ValueSet(0)
 
   return (
     <div className="App">
@@ -12,6 +12,7 @@ function App() {
           Welcome from Sana Alvi
         </p>
         <Change Changer= {Value} />
+        <button onClick={() => Value=(ValueSet+1)} />
  
     </div>
   );
