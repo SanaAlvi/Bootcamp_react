@@ -16,7 +16,7 @@ function App() {
         <button onClick={() => ValueSet(Value + 1)}>Chlick Me</button>
         <button onClick={ () => ValueSet(Value = 0)}>Reset Me</button>
   <h1>Hello {Message ? "You are Right" : "You may be Wrong"}</h1>
-      <button onClick={() => setMessage(!setMessage)}>Change Message</button>
+      <button onClick={() => setMessage(!Message)}>Change Message</button>
  
     </div>
   );
