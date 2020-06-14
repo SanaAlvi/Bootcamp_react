@@ -14,8 +14,8 @@ function App() {
         </p>
         <Change Changer= {Value} />
         <button onClick={() => ValueSet=(Value+1)}>Chlick Me</button>
-  <h1>Hello {setMessage ? 'You are Right' : 'You may Wronge'}</h1>
-      <button onClick={() => Message=(!Message)}>Change Message</button>
+  <h1>Hello {Message ? 'You are Right' : 'You may Wronge'}</h1>
+      <button onClick={() => setMessage=(!setMessage)}>Change Message</button>
  
     </div>
   );
