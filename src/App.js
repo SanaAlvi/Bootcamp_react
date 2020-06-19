@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import './App.css'
 
 import Change from './Changer.js'
 function App() {
@@ -16,7 +17,8 @@ function App() {
         <button onClick={() => ValueSet(Value + 1)}>Chlick Me</button>
         <button onClick={ () => ValueSet(Value = 0)}>Reset Me</button>
   <h1>Hello {Message ? "You are Right" : "You may be Wrong"}</h1>
-      <button onClick={() => setMessage(!Message)}>Change Message</button>
+      <button onClick={() => 
+      }>Change Message</button>
  
     </div>
   );
